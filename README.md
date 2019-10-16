@@ -12,3 +12,7 @@ Voici les règles du jeu :
 5) Les joueurs jouent à tour de rôle jusqu'à que l'un d'eux gagne ou que le plateau de jeu soit rempli.
 6) Le programme doit détecter la fin de la partie. Si un joueur gagne, le jeu annonce son nom. S'il y a match nul, le programme doit en informer les deux joueurs.
 7) À la fin d'une partie, le programme doit proposer de lancer une nouvelle partie. 
+
+Si tu es prêt à toi de jouer 
+
+Pour lancer le jeu : 
