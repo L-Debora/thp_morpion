@@ -41,21 +41,22 @@ class Game
 
   #Créer les tours de jeu, vérifier si il y a un gagnant, ou si il y a match nul.
   def turn
+    puts @players.inspect
     while @board.winning_game == false 
 
         puts "#{@players[0].name} c'est ton tour de jouer, mets ton #{@players[0].symbol} où tu le souhaites :"
         print "> "
-        @board.who_plays(gets.chomp.to_s, player.symbol)
+        @board.who_plays(gets.chomp.to_s, @players[0].symbol)
 
         puts "#{@players[1].name} c'est ton tour de jouer, mets ton #{@players[1].symbol} où tu le souhaites :"
         print "> "
-        @board.who_plays(gets.chomp.to_s, player.symbol)
+        @board.who_plays(gets.chomp.to_s, @players[1].symbol)
 
-        if @A1.empty? == false || @A2.empty? == false || @A3.empty? == false || @B1.empty? == false || @B2.empty? ==    false || @B3.empty? == false || @C1.empty? == false || @C2.empty? == false || @C3.empty? == false
-          puts "Cette cellule est déjà prise ! Fais un nouveau choix :"
-          print "> "
-          @board.who_plays(gets.chomp.to_s, player.symbol)
-        end
+        # if @A1.empty? == false || @A2.empty? == false || @A3.empty? == false || @B1.empty? == false || @B2.empty? ==    false || @B3.empty? == false || @C1.empty? == false || @C2.empty? == false || @C3.empty? == false
+        #   puts "Cette cellule est déjà prise ! Fais un nouveau choix :"
+        #   print "> "
+        #   @board.who_plays(gets.chomp.to_s, player.symbol)
+        # end
 
           @board.show_board
           @board.who_win?
