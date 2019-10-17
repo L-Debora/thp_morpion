@@ -3,7 +3,15 @@ Emeric Solome & Debora Lariviere
 
 Un petit jeu morpion en POO ! 
 
-Voici les règles du jeu : 
+   1   2  3
+ a   |   |
+   ---------
+ b   |   |
+   ---------
+ c   |   |
+
+
+**Voici les règles du jeu :**
 
 1) Le jeu ne se joue qu'à deux joueurs humains.
 2) Le programme doit commencer en demandant le prénom de chaque joueur et son symbol (X ou O)
@@ -13,6 +21,3 @@ Voici les règles du jeu :
 6) Le programme doit détecter la fin de la partie. Si un joueur gagne, le jeu annonce son nom. S'il y a match nul, le programme doit en informer les deux joueurs.
 7) À la fin d'une partie, le programme doit proposer de lancer une nouvelle partie. 
 
-Si tu es prêt à toi de jouer 
-
-Pour lancer le jeu : 
