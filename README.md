@@ -3,14 +3,6 @@ Emeric Solome & Debora Lariviere
 
 Un petit jeu morpion en POO ! 
 
-   1   2  3
- a   |   |
-   ---------
- b   |   |
-   ---------
- c   |   |
-
-
 **Voici les règles du jeu :**
 
 1) Le jeu ne se joue qu'à deux joueurs humains.
